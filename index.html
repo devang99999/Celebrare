@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="swipper.css">    
+    <link rel="shortcut icon" href="Logo.ico" type="image/x-icon">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <title>Celebrare task-2</title>
+</head>
+<body>
+    <!-- MENU BAR -->
+    <div id="menu" class="menud">
+        <ul class="menuul1">
+            <li class="menuli1"><a class="menua1" href="#"><img src="Logo.png"></a></li>
+        </ul>
+        <ul class="menuul2">
+            <li class="menuli2"><a class="menua2" href="#">Wedding Cards</a></li>
+            <li class="menuli2"><a class="menua2" href="#">Birthday Cards</a></li>
+            <li class="menuli2"><a class="menua2" href="#">Feeling Cards</a></li>
+            <li class="menuli2"><a class="menua2" href="#">Anniversary Cards</a></li>
+            <li class="menuli2 pad"><a class="menua2" href="#">Login|Signup</a></li>           
+        </ul>
+        <ul class="menuul3">
+            <li class="menuli3"><a class="menua3" href="#">Login|Signup</a></li>           
+        </ul>
+    </div>
+    <div class="head">
+        <div class="h1">    
+            <div onclick="myFunction2()" class="burger">
+                <div id="mn1" class="menubar"></div>
+                <div id="mn2" class="menubar"></div>
+                <div id="mn3" class="menubar"></div>
+            </div>
+        </div>
+        <div class="h2">
+            <a href="#"><img src="Logo.png"></a>
+        </div>
+    </div>
+    
+    <!-- MENU BAR END -->
+    <!-- CARD BACKGROUND-->
+     <div class="maindiv1">
+        <p class="mdp1">Digital Card Details</p>
+    </div>
+    <!-- CARD DISPLAY -->
+    <div class="maindiv2">
+        <div onclick="myFunction1()"  class="md2d1">
+            <img class="pg4" src="page4.png">
+        </div>
+        <div class="md2d2">
+            <div class="md2d2d1"><p class="md2d2p1">Card Title</p></div>
+            <div class="md2d2d2">
+                <div class="md2d2d2d1"><p class="pg6">$499<span class="pg7">$2000</span></p></div>
+                <div class="md2d2d2d2"><p class="pg8">75% off</p></div>
+            </div>
+            <div class="md2d2d3"><p class="pg5">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Id vero exercitationem blanditiis <br> atque temporibus, aspernatur quo voluptas laborum, at recusandae itaque eos cum debitis placeat voluptates. Voluptas incidunt voluptatibus officiis.</p></div>
+            <div class="md2d2d4"><a href="#"><input type="button" class="button" value="Try This Card"></a></div>
+            
+        </div>
+    </div>
+    <!-- CARD BACKGROUNG END-->
+    <div class="div3supp">
+        <div class="supp1">
+            <p style="font-size: 40px;font-style: italic;font-weight: 900;">Features</p>
+        </div>
+        <div class="maindiv3">
+            <div class="d3d1">
+                <div class="d3d1d1"><img class="p10" src="page5.png"></div>
+                <div class="d3d1d2"><p class="pg9">Create your card in just 5 min</p></div>
+            </div>
+            <div class="d3d2">
+                <div class="d3d1d1"><img class="p10" src="page5.png"></div>
+                <div class="d3d1d2"><p class="pg9">Coustomize the text with"Edit this page"option</p></div>
+            </div>
+            <div class="d3d3">
+                <div class="d3d1d1"><img class="p10" src="page5.png"></div>
+                <div class="d3d1d2"><p class="pg9">Editing is available after purchase also</p></div>
+            </div>
+        </div>
+    </div>
+    <div id="swip" class="swipdis">
+            <div class="slide hi-slide">
+                <div class="hi-prev"></div>
+                  <div class="hi-next"></div>
+                  <ul>
+                      <li><img class="pg11" src="Page1.jpg" alt="Img 1" /></li>
+                      <li><img class="pg11" src="Page2.jpg"alt="Img 2" /></li>
+                      <li><img class="pg11" src="Page3.jpg" alt="Img 3" /></li>              
+                  </ul>                
+            </div>
+          <div class="swp2">
+            <div style="margin-bottom: 20px;" class="md2d2d1"><p style="font-size: 30px;" class="md2d2p1">Your Better Half</p></div>
+            <div class="md2d2d2">
+                <div class="md2d2d2d1"><p style="font-size: 30px;font-weight: 500;">₹399<span style="font-weight: 500;font-size: 25px;text-decoration: line-through;padding-left: 10px;">₹1000</span></p></div>
+                <div class="md2d2d2d2"><p style="font-size: 25px;color: #22f522;">60% off</p></div>
+            </div>
+            <div class="swipp"><p style="font-size: 15px;text-align: justify  ;">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Id vero exercitationem blanditiis  atque temporibus, aspernatur quo voluptas laborum, at recusandae itaque eos cum debitis placeat voluptates. Voluptas incidunt voluptatibus officiis.</p></div>        
+        <div class="md2d2d4"><a href="#"><input type="button" class="button2" value="Try This Card→"></a></div>            
+        </div>
+          <div onclick="myFunction1()" class="swp3">
+              <div class="close1"></div>
+              <div class="close2"></div>
+          </div>
+    </div>
+      
+      
+      
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script type="text/javascript" src="js/jquery.hislide.js" ></script>
+      <script>
+          $('.slide').hiSlide();
+      </script>
+<footer style="font-size: 12px;text-align: center;">MADE BY DEVANG GANDHI FOR CELEBRARE INTERNSHIP QULIFICATION ROUND-2</footer>
+</body>
+</html>
